@@ -103,6 +103,11 @@ limitations under the License.
             <email>dylan.millikin@gmail.com</email>
             <url>https://github.com/PommeVerte</url>
         </contributor>
+        <contributor>
+            <name>Ted Wilmes</name>
+            <email>twilmes@gmail.com</email>
+            <url>https://github.com/twilmes</url>
+        </contributor>
     </contributors>
     <modules>
         <module>gremlin-shaded</module>
@@ -119,6 +124,7 @@ limitations under the License.
         <module>gremlin-console</module>
         <module>gremlin-server</module>
         <module>gremlin-archetype</module>
+        <module>gremlin-benchmark</module>
     </modules>
     <scm>
         <connection>scm:git:git@git-wip-us.apache.org:repos/asf/incubator-tinkerpop.git</connection>
@@ -874,7 +880,7 @@ limitations under the License.
                                     <overview>${basedir}/docs/javadoc/overview.html</overview>
                                     <quiet>true</quiet>
                                     <sourcepath>
-                                        giraph-gremlin/src/main/java:gremlin-core/src/main/java:gremlin-driver/src/main/java:gremlin-groovy/src/main/java:gremlin-groovy-test/src/main/java:gremlin-server/src/main/java:gremlin-test/src/main/java:hadoop-gremlin/src/main/java:neo4j-gremlin/src/main/java:spark-gremlin/src/main/java:tinkergraph-gremlin/src/main/java
+                                        giraph-gremlin/src/main/java:gremlin-core/src/main/java:gremlin-driver/src/main/java:gremlin-groovy/src/main/java:gremlin-groovy-test/src/main/java:gremlin-server/src/main/java:gremlin-test/src/main/java:hadoop-gremlin/src/main/java:neo4j-gremlin/src/main/java:spark-gremlin/src/main/java:tinkergraph-gremlin/src/main/java:gremlin-benchmark/src/main/java
                                     </sourcepath>
                                 </configuration>
                             </execution>
